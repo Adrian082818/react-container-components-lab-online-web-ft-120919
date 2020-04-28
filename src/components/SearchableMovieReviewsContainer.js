@@ -25,7 +25,7 @@ export default class SearchableMovieReviewsContainer extends Component {
     render() {
         return (
             <div className="searchable-movie-reviews">
-                <form onClick={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit}>
 
                 </form>
                 <MovieReviews reviews={this.state.reviews} />
